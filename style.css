@@ -1,0 +1,139 @@
+body {
+    background-color: #f1f1f1;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+
+.jumbotron {
+    background-color: #005DAA;
+    color: white;
+    margin-bottom: 75px;
+}
+
+.card-columns {
+    margin-bottom: 75px;
+}
+
+
+.card {
+
+    box-shadow: 5px 5px 10px #939393,
+        -5px -5px 10px #ffffff;
+
+    border-width: 0px;
+    background: #f1f1f1;
+    margin: 30px;
+}
+
+.error {
+    font-weight: bold;
+    text-shadow: 2px 2px 10px lightgrey;
+}
+
+.newErrorCount {
+    color: red;
+}
+
+.inProgressCount {
+    color: darkorange;
+}
+
+.fixedCount {
+    color: green;
+}
+
+.cannotFixCount {
+    color: darkslategrey;
+}
+
+
+
+/***********/
+/* Buttons */
+/***********/
+.df-btn {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    background: linear-gradient(145deg, #ffffff, #d9d9d9);
+    box-shadow: 3px 3px 7px #939393,
+        -3px -3px 7px #ffffff;
+    transition: background 0.3s;
+}
+
+.df-btn:hover {
+    background: linear-gradient(145deg, #eaf5f9, #ADD8E6);
+}
+
+.df-btn:active {
+    background: #e6e6e6;
+    box-shadow: inset 3px 3px 10px #939393,
+        inset -3px -3px 10px #ffffff;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/************************/
+/* Error Report Buttons */
+/************************/
+.er-btn {
+    display: block;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+
+.table-btn {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+/*********/
+/* Modal */
+/*********/
+.modal-xl {
+    max-width: 90%;
+}
+
+.modal-header {
+    background-color: #005DAA;
+    color: white;
+}
+.modal-body, .modal-footer {
+    background-color: #f1f1f1;
+}
+
+/*********/
+/* Table */
+/*********/
+.td {
+    max-height: 1em;
+}
+
+
+#map {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.footer {
+    position: absolute;
+    height: 100px;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 0px;
+}

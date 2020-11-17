@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Bootstrap 4 Minimal Template</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Dan's AGOL Error Reports</h1>
+            <hr>
+            <p>Last updated 11/5/2020 3:27:50 PM</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">FC Error Report</h4>
+                    <ul>
+                        <li class="card-text">There are <span class="error newErrorCount">3</span> new errors.</li>
+                        <li class="card-text"><span class="error inProgressCount">0</span> errors are being fixed now.</li>
+                        <li class="card-text"><span class="error fixedCount">0</span> errors have been fixed.</li>
+                        <li class="card-text"><span class="error cannotFixCount">0</span> errors can not be fixed.</li>
+                        <p class="card-text"><small class="text-muted">Last updated 10/14/2020 1:58:37 PM</small></p>
+                    </ul>
+                    <a href="" class="df-btn er-btn btn" data-toggle="modal" data-target="#id38919dbf7917404e80650a8891c60f2e">View Records</a>
+                    <a href="https://vdot.maps.arcgis.com/home/item.html?id=38919dbf7917404e80650a8891c60f2e" target="_blank" class="df-btn er-btn">View in AGOL</a>
+                </div>
+            </div><div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">NHS Error Report</h4>
+                    <ul>
+                        <li class="card-text">There are <span class="error newErrorCount">1</span> new errors.</li>
+                        <li class="card-text"><span class="error inProgressCount">0</span> errors are being fixed now.</li>
+                        <li class="card-text"><span class="error fixedCount">0</span> errors have been fixed.</li>
+                        <li class="card-text"><span class="error cannotFixCount">0</span> errors can not be fixed.</li>
+                        <p class="card-text"><small class="text-muted">Last updated 10/16/2020 1:43:34 PM</small></p>
+                    </ul>
+                    <a href="" class="df-btn er-btn btn" data-toggle="modal" data-target="#idd2afd94945a84b9494f8603dd86b0c8f">View Records</a>
+                    <a href="https://vdot.maps.arcgis.com/home/item.html?id=d2afd94945a84b9494f8603dd86b0c8f" target="_blank" class="df-btn er-btn">View in AGOL</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid footer">
+        <div class="container">
+
+        </div>
+    </div>
+    <!-- Modals that hold error report records -->
+    <div class="modal fade" id="id38919dbf7917404e80650a8891c60f2e" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">FC Error Report</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover""><thead><tr><th scope="col"></th><th scope="col"></th><th scope="col">Name</th><th scope="col">Email</th><th scope="col">ErrorComment</th><th scope="col">Status</th></thead></tr><tbody><tr><td class='viewMap' data-lat='4446362.151466061' data-lng='-8515262.529102627' data-mapID='a47455887dac4f7fa9fedbb79826fdbc' data-comment='Does this need to be a major collector?'><div class='df-btn table-btn'>View Map</div></td><td class='openInAGOL' data-lat='4446362.151466061' data-lng='-8515262.529102627' data-mapID='a47455887dac4f7fa9fedbb79826fdbc'><div class='df-btn table-btn' >Open in AGOL</div></td><td>Dan</td><td>None</td><td>Does this need to be a major collector?</td><td>New Error</td></tr><tr><td class='viewMap' data-lat='4692683.144275635' data-lng='-8639918.973450001' data-mapID='a47455887dac4f7fa9fedbb79826fdbc' data-comment='Gap in the FC.  I think this is caused by an error in the LRS'><div class='df-btn table-btn'>View Map</div></td><td class='openInAGOL' data-lat='4692683.144275635' data-lng='-8639918.973450001' data-mapID='a47455887dac4f7fa9fedbb79826fdbc'><div class='df-btn table-btn' >Open in AGOL</div></td><td>Dan</td><td>None</td><td>Gap in the FC.  I think this is caused by an error in the LRS</td><td>New Error</td></tr><tr><td class='viewMap' data-lat='4496396.158121476' data-lng='-8652418.391953165' data-mapID='a47455887dac4f7fa9fedbb79826fdbc' data-comment='Woolridge Rd west of Otterdale Rd needs to be added.  Minor arterial?'><div class='df-btn table-btn'>View Map</div></td><td class='openInAGOL' data-lat='4496396.158121476' data-lng='-8652418.391953165' data-mapID='a47455887dac4f7fa9fedbb79826fdbc'><div class='df-btn table-btn' >Open in AGOL</div></td><td>Dan</td><td>None</td><td>Woolridge Rd west of Otterdale Rd needs to be added.  Minor arterial?</td><td>New Error</td></tr></table>
+                </div>
+                <div class="modal-footer">
+                    <div class="df-btn" data-dismiss="modal">Close</div>
+                </div>
+            </div>
+        </div>
+    </div><div class="modal fade" id="idd2afd94945a84b9494f8603dd86b0c8f" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">NHS Error Report</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-hover""><thead><tr><th scope="col"></th><th scope="col"></th><th scope="col">Name</th><th scope="col">Email</th><th scope="col">ErrorComment</th><th scope="col">Status</th></thead></tr><tbody><tr><td class='viewMap' data-lat='4688952.116630845' data-lng='-8586029.981044171' data-mapID='9a0f8f44a47549f4aad6541d45e64788' data-comment='Why is this segment floating here?'><div class='df-btn table-btn'>View Map</div></td><td class='openInAGOL' data-lat='4688952.116630845' data-lng='-8586029.981044171' data-mapID='9a0f8f44a47549f4aad6541d45e64788'><div class='df-btn table-btn' >Open in AGOL</div></td><td>Dan</td><td>None</td><td>Why is this segment floating here?</td><td>New Error</td></tr></table>
+                </div>
+                <div class="modal-footer">
+                    <div class="df-btn" data-dismiss="modal">Close</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Map Modal -->
+    <div class="modal" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="MapLabel">Error Report Location</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div id="map"></div>
+                </div>
+                <div class="modal-footer">
+                    <div id="btnGoHereInAGOL" class="df-btn btnGoHereInAGOL" data-dismiss="modal" data-mapID="test">Go Here in AGOL</div>
+                    <div class="df-btn" data-dismiss="modal">Close</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function() {
+            // Set up map
+            var map = L.map("map").setView([37.5, -77.4], 10);
+            
+            // Basemap
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+            
+            // Error report location
+            var marker = L.circleMarker([0,0], {radius:10, fillColor: 'red', fillOpacity:  0.5}).addTo(map);
+        
+            
+
+            function show_map(lat, lng, mapid, comment) {
+                // Show map modal
+                $('#mapModal').modal('show');
+                
+                // Move comment marker
+                let coords = L.latLng(lat, lng);
+                marker.setLatLng(coords);
+                
+                if (comment) {
+                    marker.bindPopup(comment);
+                }
+                
+                // Set map view
+                map.setView(coords, 13);
+                
+                // Set Go to AGOL button
+                $("#btnGoHereInAGOL").attr('data-mapID', mapid);
+                                    
+                                    // Fix issue with map size within modal
+            setTimeout(function() {
+                map.invalidateSize();
+            }, 500);
+            }
+            
+            
+            // Event Listeners
+            $("#btnGoHereInAGOL").on("click", function() {
+                let mapID = $('#btnGoHereInAGOL').attr('data-mapID');
+                let coords = map.getCenter();
+                let lat = coords.lat;
+                let lng = coords.lng;
+                let level = map.getZoom();
+                let url = 'https://www.arcgis.com/home/webmap/viewer.html?webmap=' + mapID + '&center=' + lng + ',' + lat + '&level=' + level;
+                window.open(url);
+            });
+            
+            $('.viewMap').on('click', function() {
+                // Convert coordinates
+                let t = $(this);
+                let lat = t.attr('data-lat');
+                let lng = t.attr('data-lng');
+                point = new L.Point(lng, lat);
+                coords = L.Projection.SphericalMercator.unproject(point);
+                
+                lat = coords.lat;
+                lng = coords.lng;
+                
+                console.log('Lat: ' + lat + '   Lng: ' + lng);
+                
+                let mapID = t.attr('data-mapID');
+                let comment = t.attr('data-comment');
+                show_map(lat, lng, mapID, comment);
+            })
+
+            $('.openInAGOL').on('click', function() {
+                // Convert coordinates
+                let t = $(this);
+                let lat = t.attr('data-lat');
+                let lng = t.attr('data-lng');
+                point = new L.Point(lng, lat);
+                coords = L.Projection.SphericalMercator.unproject(point);
+                
+                lat = coords.lat;
+                lng = coords.lng;
+                
+                console.log('Lat: ' + lat + '   Lng: ' + lng);
+                
+                let mapID = t.attr('data-mapID');
+                let url = 'https://www.arcgis.com/home/webmap/viewer.html?webmap=' + mapID + '&center=' + lng + ',' + lat + '&level=13';
+                window.open(url);
+            })
+        })
+    </script>
+</body>
+</html>
